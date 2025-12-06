@@ -6,18 +6,8 @@ on:
       - main
 
 jobs:
-  approve:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Require manual approval before deploy
-        uses: trstringer/manual-approval@v1
-        with:
-          secret: ${{ github.TOKEN }}
-
   deploy:
     runs-on: ubuntu-latest
-    needs: approve
 
     steps:
       - uses: actions/checkout@v3
