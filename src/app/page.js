@@ -6,7 +6,8 @@ export default function Home() {
      style={{
       color : "var(--ui-color-surface-error-error-strong-20)",
       fontSize: "44px",
-      margin: "20px"
+      margin: "20px",
+      fontWeight: "bold"
      }}
      >
       
