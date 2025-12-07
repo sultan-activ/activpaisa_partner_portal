@@ -1,0 +1,18 @@
+name: Block Direct Pushes
+
+on:
+  push:
+    branches:
+      - stage
+      - main
+
+jobs:
+  block:
+    # Block only if push is directly done (NOT PR merge / NOT bot)
+    if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: ❌ Direct push blocked
+        run: |
+          echo "⛔ Direct push to protected branches (stage/main) is not allowed!"
+          exit 1
