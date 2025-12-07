@@ -4,7 +4,8 @@ export default function Home() {
   return (
      <div 
      style={{
-      color : "var(--ui-color-surface-error-error-strong-20)"
+      color : "var(--ui-color-surface-error-error-strong-20)",
+      fontSize: "44px"
      }}
      >
       
