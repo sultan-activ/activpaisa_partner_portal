@@ -3,13 +3,15 @@ name: Block Direct Pushes
 on:
   push:
     branches:
-      - stage
       - main
+      - stage
 
 jobs:
   block:
+    if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          echo "❌ Direct pushes to main or stage are not allowed. Create a Pull Request instead."
+      - name: Block Direct Push
+        run: |
+          echo "⛔ Direct push to protected branch is not allowed!" 
           exit 1
