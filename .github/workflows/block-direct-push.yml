@@ -1,0 +1,15 @@
+name: Block Direct Pushes
+
+on:
+  push:
+    branches:
+      - stage
+      - main
+
+jobs:
+  block:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "❌ Direct pushes to main or stage are not allowed. Create a Pull Request instead."
+          exit 1
