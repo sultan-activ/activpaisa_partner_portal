@@ -3,15 +3,16 @@ name: Block Direct Pushes
 on:
   push:
     branches:
-      - main
       - stage
+      - main
 
 jobs:
   block:
+    # Block only if push is directly done (NOT PR merge / NOT bot)
     if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
-      - name: Block Direct Push
+      - name: ❌ Direct push blocked
         run: |
-          echo "⛔ Direct push to protected branch is not allowed!" 
+          echo "⛔ Direct push to protected branches (stage/main) is not allowed!"
           exit 1
