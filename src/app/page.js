@@ -5,7 +5,8 @@ export default function Home() {
      <div 
      style={{
       color : "var(--ui-color-surface-error-error-strong-20)",
-      fontSize: "44px"
+      fontSize: "44px",
+      margin: "20px"
      }}
      >
       
