@@ -528,127 +528,181 @@
     },
     "State": {
       "Hover": {
-        "neutral-light-10-N10": {
-          "$value": "{Color.Overlays.Dark Overlay 2}",
+        "hvr-neutral-light-10-N10": {
+          "$value": "{Color.Neutrals.200}",
           "$type": "color"
         },
-        "neutral-light-10-N20": {
+        "hvr-neutral-light-10-N20": {
           "$value": "{Color.Overlays.Dark Overlay 4}",
           "$type": "color"
         },
-        "neutral-light-10-N30": {
+        "hvr-neutral-light-10-N30": {
           "$value": "{Color.Overlays.Dark Overlay 8}",
           "$type": "color"
         },
-        "primary 00": {
+        "hvr-neutral-light-30-N10": {
+          "$value": "{Color.Overlays.Dark Overlay 2}",
+          "$type": "color"
+        },
+        "hvr-primary 00": {
           "$value": "{Color.Primary.200}",
           "$type": "color"
         },
-        "primary-1": {
+        "hvr-primary-1": {
           "$value": "{Color.Overlays.Dark Overlay 16}",
           "$type": "color"
         }
       },
       "On-Hover": {
-        "on-neutral-light-10-N10": {
-          "$value": "{Color.Neutrals.400}",
-          "$type": "color"
+        "neutral-light-10": {
+          "on-hvr-neutral-light-10-N10": {
+            "$value": "{Color.Neutrals.400}",
+            "$type": "color"
+          },
+          "on-hvr-neutral-light-10-N20": {
+            "$value": "{Color.Neutrals.500}",
+            "$type": "color"
+          },
+          "on-hvr-neutral-light-10-N30": {
+            "$value": "{Color.Neutrals.800 (Main)}",
+            "$type": "color"
+          }
         },
-        "primary-1": {
+        "on-hvr-primary-1": {
           "$value": "{Color.Neutrals.00}",
           "$type": "color"
         },
-        "primary-2": {
+        "on-hvr-primary-2": {
           "$value": "{Color.Overlays.Dark Overlay 32}",
           "$type": "color"
         }
       },
       "Disabled": {
-        "neutral-light-30": {
+        "dis-neutral-light-30": {
           "$value": "{Color.Neutrals.200}",
           "$type": "color"
         },
-        "neutral-medium-30": {
+        "dis-neutral-medium-10": {
+          "$value": "{Color.Neutrals.300}",
+          "$type": "color"
+        },
+        "dis-neutral-medium-30": {
           "$value": "{Color.Neutrals.500}",
           "$type": "color"
         }
       },
       "On-Disabled": {
         "neutral-light-30": {
-          "on-neutral-light-30-N10": {
+          "on-dis-neutral-light-30-N10": {
             "$value": "{Color.Neutrals.400}",
+            "$type": "color"
+          },
+          "on-dis-neutral-light-30-N20": {
+            "$value": "{Color.Neutrals.500}",
+            "$type": "color"
+          }
+        },
+        "neutral-medium-10": {
+          "on-dis-neutral-medium-10-N10": {
+            "$value": "{Color.Neutrals.400}",
+            "$type": "color"
+          },
+          "on-dis-neutral-medium-10-N20": {
+            "$value": "{Color.Neutrals.500}",
             "$type": "color"
           }
         }
       },
-      "Active": {
-        "neutral-light-10-P10": {
+      "Highlighted": {
+        "hgt-neutral-light-10-P10": {
           "$value": "{Color.Primary.900 (Main)}",
           "$type": "color"
+        }
+      },
+      "Selected": {
+        "sel-neutral-light-30": {
+          "$value": "{Color.Neutrals.200}",
+          "$type": "color"
+        },
+        "hover-sel-neutral-light-30": {
+          "$value": "{Color.Overlays.Dark Overlay 8}",
+          "$type": "color"
+        }
+      },
+      "On-Selected": {
+        "neutral-light-30": {
+          "on-sel-neutral-light-30-N20": {
+            "$value": "{Color.Neutrals.600}",
+            "$type": "color"
+          }
         }
       }
     },
     "Border": {
       "Default": {
-        "neutral-light-10": {
+        "bd-neutral-light-10": {
           "$value": "{Color.Neutrals.00}",
           "$type": "color"
         },
-        "neutral-medium-10": {
+        "bd-neutral-medium-10": {
           "$value": "{Color.Neutrals.300}",
           "$type": "color"
         },
-        "neutral-medium-20": {
+        "bd-neutral-medium-20": {
           "$value": "{Color.Neutrals.400}",
           "$type": "color"
         },
-        "neutral-medium-30": {
+        "bd-neutral-medium-30": {
           "$value": "{Color.Neutrals.500}",
           "$type": "color"
         },
-        "neutral-strong-10": {
+        "bd-neutral-strong-10": {
           "$value": "{Color.Neutrals.600}",
           "$type": "color"
         },
-        "primary-strong-10": {
+        "bd-primary-strong-10": {
           "$value": "{Color.Primary.900 (Main)}",
           "$type": "color"
         },
-        "primary-light-10": {
+        "bd-primary-light-10": {
           "$value": "{Color.Primary.100}",
           "$type": "color"
         }
       },
       "Semantic": {
-        "error-strong-10": {
+        "bd-error-strong-10": {
           "$value": "{Color.Error.600 (Main)}",
           "$type": "color"
         }
       },
       "Hover": {
-        "neutral-medium-10": {
+        "bd-neutral-medium-10": {
           "$value": "{Color.Neutrals.300}",
           "$type": "color"
         },
-        "neutral-medium-30": {
+        "bd-neutral-medium-20": {
+          "$value": "{Color.Neutrals.400}",
+          "$type": "color"
+        },
+        "bd-neutral-medium-30": {
           "$value": "{Color.Neutrals.500}",
           "$type": "color"
         },
-        "primary-strong-10-P10": {
+        "bd-primary-strong-10-P10": {
           "$value": "{Color.Overlays.Primary Overlay 4}",
           "$type": "color"
         }
       },
       "Pressed": {
-        "neutral-medium-30": {
+        "bd-neutral-medium-30": {
           "$value": "{Color.Neutrals.500}",
           "$type": "color"
         },
-        "neutral-medium-10": {
+        "bd-neutral-medium-10": {
           "$value": "{Color.Neutrals.300}",
           "$type": "color"
         },
-        "neutral-light-10-N10": {
+        "bd-neutral-light-10-N10": {
           "$value": "{Color.Overlays.Dark Overlay 16}",
           "$type": "color"
         },
@@ -658,19 +712,19 @@
         }
       },
       "Focused": {
-        "neutral-light-30": {
+        "bd-neutral-light-30": {
           "$value": "{Color.Neutrals.200}",
           "$type": "color"
         },
-        "neutral-medium-10": {
+        "bd-neutral-medium-10": {
           "$value": "{Color.Neutrals.300}",
           "$type": "color"
         },
-        "neutral-strong-20": {
+        "bd-neutral-strong-20": {
           "$value": "{Color.Neutrals.800 (Main)}",
           "$type": "color"
         },
-        "primary-light-10": {
+        "bd-primary-light-10": {
           "$value": "{Color.Primary.100}",
           "$type": "color"
         },
@@ -679,32 +733,42 @@
           "$type": "color"
         }
       },
-      "disabled-primary-overlay - 4": {
+      "bd-disabled-primary-overlay - 4": {
         "$value": "{Color.Overlays.Primary Overlay 4}",
         "$type": "color"
       },
-      "disabled-primary-overlay - 8": {
+      "bd-disabled-primary-overlay - 8": {
         "$value": "{Color.Overlays.Primary Overlay 8}",
         "$type": "color"
       },
-      "disabled-primary-overlay - 16": {
+      "bd-disabled-primary-overlay - 16": {
         "$value": "{Color.Overlays.Primary Overlay 16}",
         "$type": "color"
       },
-      "disabled-dark-overlay - 4": {
+      "bd-disabled-dark-overlay - 4": {
         "$value": "{Color.Overlays.Dark Overlay 4}",
         "$type": "color"
       },
-      "disabled-dark-overlay - 8": {
+      "bd-disabled-dark-overlay - 8": {
         "$value": "{Color.Overlays.Dark Overlay 8}",
         "$type": "color"
       },
-      "disabled-dark-overlay - 16": {
+      "bd-disabled-dark-overlay - 16": {
         "$value": "{Color.Overlays.Dark Overlay 16}",
         "$type": "color"
       },
       "Disabled": {
-        "neutral-medium-10": {
+        "bd-neutral-medium-10": {
+          "$value": "{Color.Neutrals.300}",
+          "$type": "color"
+        },
+        "bd-neutral-medium-20": {
+          "$value": "{Color.Neutrals.400}",
+          "$type": "color"
+        }
+      },
+      "Selected": {
+        "bd-neutral-medium-10": {
           "$value": "{Color.Neutrals.300}",
           "$type": "color"
         }
